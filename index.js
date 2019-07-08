@@ -48,7 +48,7 @@ const init = () => {
   const run = async () => {
     // show script introduction
     init();
-  //0x844e8391e356d9278e5cefff2e880a2292b8456150bf26233ceb3f3365e36f8b
+  
     const answers = await askQuestions();
     const { PrivateKey, Password} = answers;
     let wl=new Wallet(util.toBuffer(PrivateKey))
